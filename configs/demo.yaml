@@ -1,0 +1,47 @@
+seed: 0
+
+data:
+  train_path: examples/data/train.csv
+  test_path: examples/data/test.csv
+  label_column: label
+  index_column: sample_id
+  validation_fraction: 0.2
+  split_seed: 42
+
+preprocessing:
+  n_quantiles: 1000
+  output_distribution: normal
+  n_bins: 48
+
+model:
+  ensemble_size: 8
+  n_blocks: 2
+  hidden_dim: 64
+  embedding_dim: 8
+  dropout: 0.1
+  activation: relu
+
+training:
+  epochs: 30
+  batch_size: 16
+  eval_batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  scheduler_factor: 0.5
+  scheduler_patience: 3
+  early_stopping_patience: 5
+  gradient_clip_norm: 1.0
+  device: auto
+
+evaluation:
+  target_specificities: [0.95, 0.99]
+  threshold_source: validation
+
+cross_validation:
+  enabled: false
+  n_splits: 5
+  shuffle: true
+  split_seed: 42
+
+output:
+  directory: outputs
