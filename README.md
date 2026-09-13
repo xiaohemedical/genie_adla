@@ -164,9 +164,9 @@ preprocessor. Models can be restored with `genie_adla.load_model()`.
 
 ## Data availability
 
-Real DNA methylation cohorts, study-specific configurations, trained
-checkpoints, and research outputs are not distributed due to data-governance
-and confidentiality requirements.
+Real DNA methylation cohorts, study-specific configurations, and trained
+checkpoints are not distributed due to data-governance and confidentiality
+requirements.
 
 ## License
 
