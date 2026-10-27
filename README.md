@@ -11,6 +11,11 @@ execution modes:
 - a single stratified train/validation split;
 - stratified K-fold cross-validation with out-of-fold (OOF) prediction.
 
+## Authors
+
+- [Yangyan Zhan](https://github.com/yangyanzhan)
+- [Guoqiang Zhao](https://github.com/Zhaooooooooooo)
+
 ## Model architecture
 
 ```text
