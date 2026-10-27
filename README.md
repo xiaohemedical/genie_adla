@@ -13,7 +13,7 @@ execution modes:
 
 ## Authors
 
-- [Yangyan Zhan](https://github.com/yangyanzhan)
+- [Yanzhan Yang](https://github.com/yangyanzhan)
 - [Guoqiang Zhao](https://github.com/Zhaooooooooooo)
 
 ## Model architecture
